@@ -1,9 +1,13 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Tag } from "./navigation/tags/Tag";
 
 export default () => (
-    
-    <h1 class="text-3xl font-bold underline">
-        Hello world!113213 sddddd
-    </h1>
+  <div className="bg-red-500">
+    <Tag url="/news" name="Новое"/>
+    <Tag url="/case" name="Кейс"/>
+    <Tag url="/sales" name="Продажи"/>
+    <Tag url="/lead_generation" name="Лидогенерация"/>
+    <Tag url="/agencies" name="Агенствам"/>
+    <Tag url="/in_my_place" name="На своем месте"/>
+  </div>
 );
