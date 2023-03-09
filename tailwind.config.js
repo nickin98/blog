@@ -16,8 +16,21 @@ module.exports = {
         sales: '#FF4EA3',
         leadGeneration: '#84CB10',
         agencies: '#FF7051',
-        inMyPlace: '#FFB800'
-      }
+        inMyPlace: '#FFB800',
+        hover: {
+          news: '#9BD3FF',
+          case: '#C7A3FF',
+          sales: '#fca3ce',
+          leadGeneration: '#b6e170',
+          agencies: '#f7a594',
+          inMyPlace: '#fadb8b',
+        }
+      },
+      staticText: "#bbbbbb",
     },
+    boxShadow: {
+      previeArticle: '0 0 20px rgba(0, 0, 0, 0.15)',
+      hoverPrevieArticle: '0 0 10px rgba(0, 0, 0, 0.15)',
+    }
   }
 }

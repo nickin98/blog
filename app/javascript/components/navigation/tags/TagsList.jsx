@@ -3,13 +3,13 @@ import { Tag } from "./Tag";
 
 const TagsList = () => {
   return (
-    <div className="flex justify-evenly bg-gray py-8">
+    <div className="flex justify-evenly bg-gray rounded-[23px] py-8">
       {tags.map((tag) =>
         <Tag
           key={tag.id}
           name={tag.name}
           url={tag.url}
-          bgColor={tag.bgColor}
+          styles={tag.styles}
         />
       )}
     </div>
@@ -17,12 +17,12 @@ const TagsList = () => {
 }
 
 const tags = [
-  { id: 1, name: 'Новое',          url: '/news',            bgColor: 'bg-tag-news'},
-  { id: 2, name: 'Кейс',           url: '/case',            bgColor: 'bg-tag-case'},
-  { id: 3, name: 'Продажи',        url: '/sales',           bgColor: 'bg-tag-sales'},
-  { id: 4, name: 'Лидогенерация',  url: '/lead_generation', bgColor: 'bg-tag-leadGeneration'},
-  { id: 5, name: 'Агенствам',      url: '/agencies',        bgColor: 'bg-tag-agencies'},
-  { id: 6, name: 'На своем месте', url: '/in_my_place',     bgColor: 'bg-tag-inMyPlace'}
+  { id: 1, name: 'Новое',          url: '/news',            styles: 'bg-tag-news hover:bg-tag-hover-news'},
+  { id: 2, name: 'Кейс',           url: '/case',            styles: 'bg-tag-case hover:bg-tag-hover-case'},
+  { id: 3, name: 'Продажи',        url: '/sales',           styles: 'bg-tag-sales hover:bg-tag-hover-sales'},
+  { id: 4, name: 'Лидогенерация',  url: '/lead_generation', styles: 'bg-tag-leadGeneration hover:bg-tag-hover-leadGeneration'},
+  { id: 5, name: 'Агенствам',      url: '/agencies',        styles: 'bg-tag-agencies hover:bg-tag-hover-agencies'},
+  { id: 6, name: 'На своем месте', url: '/in_my_place',     styles: 'bg-tag-inMyPlace hover:bg-tag-hover-inMyPlace'}
 ];
 
 export {TagsList}
