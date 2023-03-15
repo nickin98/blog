@@ -4,7 +4,8 @@ import classNames from "classnames";
 
 const Tag = props => {
   const classnames = classNames(
-    `text-base text-white font-bold rounded-[10px] px-4 py-2 transition duration-300`,
+    `lg:text-base md:text-sm text-white font-bold rounded-[10px] px-4 py-1.5 transition duration-300`,
+    'md:leading-10',
     props.styles
   )
   return (

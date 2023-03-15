@@ -15,11 +15,12 @@ const OtherArticle = () => {
           "Новое"
         </Tag>
       }
-      <img className="w-[38rem] rounded-[23px]" src="cover.png" />
-      <div className="flex flex-col justify-between mt-4 ml-8">
+      <img className="w-[38rem] rounded-[23px] h-48" src="cover.png" />
+      <div className="flex flex-col justify-between pt-6 px-4 pb-[22px]">
         <h2 className="text-lg font-medium">
           Улучшить результаты другого подрядчика и получить 200+ лидов в кризис? Кейс Титансофт о продвижении застройщика
         </h2>
+        <div className="mt-4"/>
         <Statistic/>
       </div>
     </div>

@@ -3,7 +3,7 @@ import { Tag } from "./Tag";
 
 const TagsList = () => {
   return (
-    <div className="flex justify-evenly bg-gray rounded-[23px] py-8">
+    <div className="flex justify-evenly bg-gray rounded-[23px] lg:py-8 md:py-2">
       {tags.map((tag) =>
         <Tag
           key={tag.id}

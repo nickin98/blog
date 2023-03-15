@@ -17,7 +17,7 @@ const FirstArticle = () => {
       }
       <img className="w-[38rem] rounded-[23px]" src="cover.png" />
       <div className="flex flex-col justify-between mt-4 ml-8">
-        <h2 className="text-3xl font-semibold	">Лид-форма Вконтакте: руководство по созданию и настройке</h2>
+        <h2 className="xl:text-3xl lg:text-2xl md:text-xl sm:text-lg font-semibold	">Лид-форма Вконтакте: руководство по созданию и настройке</h2>
         <Statistic/>
       </div>
     </div>

@@ -5,11 +5,24 @@ module.exports = {
     './app/javascript/**/*.{js,jsx}' // ,ts,tsx
   ],
   theme: {
+    container: {
+      screens: {
+        sm: '640px',
+        md: '768px',
+        lg: '1024px',
+        xl: '1312px',
+      },
+      padding: {
+        DEFAULT: '1rem'
+      },
+    },
     colors: {
       yellow: '#ffc800',
       black: '#000000',
       gray: '#f4f4f4',
       white: '#FFFFFF',
+      lightGray: '#bbbbbb',
+      lightBlack: '#1a1a1a',
       tag: {
         news: '#38A8FF',
         case: '#9048FF',
@@ -23,14 +36,16 @@ module.exports = {
           sales: '#fca3ce',
           leadGeneration: '#b6e170',
           agencies: '#f7a594',
-          inMyPlace: '#fadb8b',
+          inMyPlace: '#fadb8b'
         }
       },
       staticText: "#bbbbbb",
+
     },
     boxShadow: {
       previeArticle: '0 0 20px rgba(0, 0, 0, 0.15)',
       hoverPrevieArticle: '0 0 10px rgba(0, 0, 0, 0.15)',
+      lightGray: 'inset 0 0 0 1px #bbbbbb'
     }
   }
 }
