@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from '../ui/button';
 
 export default class OfferArticle extends React.Component {
   render() {
@@ -11,6 +12,9 @@ export default class OfferArticle extends React.Component {
         <div className="flex flex-col py-8 px-7 text-center">
           <span className='xl:text-lg font-semibold mb-3.5'>Опубликуйте статью в&nbsp;блоге&nbsp;Callibri</span>
           <img className="w-44 h-48 mt-7 rounded-[23px] self-center" src="calendar.png" />
+          <Button
+            children = "Предложить статью"
+          />
         </div>
       </div>
       

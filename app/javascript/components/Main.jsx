@@ -5,6 +5,8 @@ import { OtherArticle } from "./articles/OtherArticle";
 import SubscribeEmail from "./custom_blocks/SubscribeEmail";
 import Calendar from "./custom_blocks/Calendar";
 import Glossary from "./custom_blocks/Glossary";
+import OfferArticle from "./custom_blocks/offerArticle";
+import Paginations from "./navigation/paginations";
 
 export default () => (
   <div className="container mx-auto">
@@ -19,11 +21,22 @@ export default () => (
       <SubscribeEmail/>
       <OtherArticle/>
       <OtherArticle/>
+      <OtherArticle/>
+      <OtherArticle/>
+      <OtherArticle/>
       <Calendar/>
       <Glossary/>
       <OtherArticle/>
       <OtherArticle/>
       <OtherArticle/>
+      <OtherArticle/>
+      <OtherArticle/>
+      <OtherArticle/>
+      <OtherArticle/>
+      <OfferArticle/>
     </div>
+    <div className="mt-12"/>
+    <Paginations/>
+    <div className="mb-12"/>
   </div>
 );
