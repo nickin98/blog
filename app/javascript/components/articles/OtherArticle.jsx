@@ -10,9 +10,7 @@ const OtherArticle = () => {
           text="Новое"
           url="/news"
           type="absoluteNews"
-        >
-          "Новое"
-        </Tag>
+        />
       }
       <img className="w-[38rem] rounded-[23px] h-48" src="cover.png" />
       <div className="flex flex-col justify-between pt-6 px-4 pb-[22px]">

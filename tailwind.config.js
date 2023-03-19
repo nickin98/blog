@@ -2,7 +2,7 @@ module.exports = {
   content: [
     './app/views/**/*',
     './app/helpers/**/*.rb',
-    './app/javascript/**/*.{js,jsx, tsx}' // ,ts,tsx
+    './app/javascript/**/*.{js,jsx,ts,tsx}'
   ],
   theme: {
     container: {
@@ -15,6 +15,7 @@ module.exports = {
       padding: {
         DEFAULT: '1rem'
       },
+      center: true
     },
     colors: {
       yellow: '#ffc800',

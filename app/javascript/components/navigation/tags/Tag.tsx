@@ -10,7 +10,6 @@ const customStyles = {
   leadGeneration: 'bg-tag-leadGeneration hover:bg-tag-hover-leadGeneration',
   agencies:       'bg-tag-agencies hover:bg-tag-hover-agencies',
   inMyPlace:      'bg-tag-inMyPlace hover:bg-tag-hover-inMyPlace'
-
 }
 
 interface Props {
@@ -24,13 +23,12 @@ const Tag = ({
   url,
   type
 }: Props) => {
-  console.log(customStyles);
-  console.log(type);
   const styles = classNames(
-    `lg:text-base md:text-sm text-white font-bold rounded-[10px] px-4 py-1.5 transition duration-300`,
-    'md:leading-10',
+    `text-white  rounded-[10px] px-4 py-1.5 transition duration-300`,
+    'md:text-base md:font-bold',
+    'sm:text-sm sm:font-medium sm:leading-10',
     customStyles[type]
-  )
+  );
   return (
     <>
       {
