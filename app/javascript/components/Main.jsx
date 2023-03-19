@@ -1,5 +1,5 @@
 import React from "react";
-import { TagsList } from "./navigation/tags/TagsList";
+import TagsList from "./navigation/tags/TagsList";
 import { FirstArticle } from "./articles/FirstArticle";
 import { OtherArticle } from "./articles/OtherArticle";
 import SubscribeEmail from "./custom_blocks/SubscribeEmail";
@@ -15,7 +15,7 @@ export default () => (
     <FirstArticle/>
     <div className="mt-12"/>
     <div className="flex flex-wrap gap-x-1 gap-y-3 justify-between">
-      <OtherArticle/>
+      {/* <OtherArticle/>
       <OtherArticle/>
       <OtherArticle/>
       <SubscribeEmail/>
@@ -33,7 +33,7 @@ export default () => (
       <OtherArticle/>
       <OtherArticle/>
       <OtherArticle/>
-      <OfferArticle/>
+      <OfferArticle/> */}
     </div>
     <div className="mt-12"/>
     <Paginations/>

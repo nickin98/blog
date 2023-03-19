@@ -1,5 +1,5 @@
 import React from "react";
-import { Tag } from "../navigation/tags/Tag";
+import Tag from "../navigation/tags/Tag";
 import { Statistic } from "./statistic";
 
 const OtherArticle = () => {
@@ -7,10 +7,9 @@ const OtherArticle = () => {
     <div className="flex flex-col w-[26rem] relative rounded-[22px] shadow-previeArticle hover:shadow-hoverPrevieArticle cursor-pointer transition duration-300">
       {
         <Tag
-          key="1"
-          name="Новое"
+          text="Новое"
           url="/news"
-          styles="absolute top-3 left-3 bg-tag-news"
+          type="absoluteNews"
         >
           "Новое"
         </Tag>
