@@ -9,13 +9,13 @@ import OfferArticle from "./custom_blocks/offerArticle";
 import Paginations from "./navigation/paginations";
 
 export default () => (
-  <div className="container mx-auto">
+  <>
     <div className="mt-12"/>
     <TagsList/>
     {/* <FirstArticle/> */}
-    <div className="mt-12"/>
-    <div className="flex flex-wrap gap-x-1 gap-y-3 justify-between">
-      {/* <OtherArticle/>
+    {/* <div className="mt-12"/> */}
+    {/* <div className="flex flex-wrap gap-x-1 gap-y-3 justify-between">
+      <OtherArticle/>
       <OtherArticle/>
       <OtherArticle/>
       <SubscribeEmail/>
@@ -33,10 +33,10 @@ export default () => (
       <OtherArticle/>
       <OtherArticle/>
       <OtherArticle/>
-      <OfferArticle/> */}
-    </div>
-    <div className="mt-12"/>
+      <OfferArticle/>
+    </div> */}
+    {/* <div className="mt-12"/> */}
     {/* <Paginations/> */}
-    <div className="mb-12"/>
-  </div>
+    {/* <div className="mb-12"/> */}
+  </>
 );

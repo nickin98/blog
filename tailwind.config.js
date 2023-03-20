@@ -6,16 +6,14 @@ module.exports = {
   ],
   theme: {
     container: {
+      padding: '1rem',
+      center: true,
       screens: {
         sm: '640px',
         md: '768px',
         lg: '1024px',
-        xl: '1312px',
+        xl: '1280px',
       },
-      padding: {
-        DEFAULT: '1rem'
-      },
-      center: true
     },
     colors: {
       yellow: '#ffc800',
