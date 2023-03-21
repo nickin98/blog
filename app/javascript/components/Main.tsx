@@ -6,7 +6,7 @@ import SubscribeEmail from "./custom_blocks/SubscribeEmail";
 import Calendar from "./custom_blocks/Calendar";
 import Glossary from "./custom_blocks/Glossary";
 import OfferArticle from "./custom_blocks/offerArticle";
-import Paginations from "./navigation/paginations";
+import PaginationPages from "./navigation/PaginationPages";
 
 export default () => (
   <>
@@ -35,7 +35,7 @@ export default () => (
       {/* <OfferArticle/> */}
     </div>
     <div className="mt-12"/>
-    {/* <Paginations/> */}
+    <PaginationPages/>
     {/* <div className="mb-12"/> */}
   </>
 );

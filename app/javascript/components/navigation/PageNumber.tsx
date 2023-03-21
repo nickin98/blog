@@ -1,7 +1,11 @@
 import React from 'react';
 import classNames from 'classnames';
 
-function styles() {
+interface Props {
+  number: number
+}
+
+const styles = () => {
   return (
     classNames(
       `font-semibold text-center`,
@@ -12,10 +16,12 @@ function styles() {
   )
 }
 
-function NumberPages() {
+const PageNumber = ({
+  number
+}) => {
   return (
-    <a className={styles()}>1</a>
+    <a className={styles()}>{number}</a>
   )
 }
 
-export default NumberPages;
+export default PageNumber;
