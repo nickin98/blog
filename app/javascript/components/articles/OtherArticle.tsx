@@ -1,6 +1,6 @@
 import React from "react";
 import Tag from "../navigation/tags/Tag";
-import { Statistic } from "./statistic";
+import Statistic from "../statistics/Statistic";
 import classNames from "classnames";
 
 const OtherArticle = () => {
@@ -13,7 +13,8 @@ const OtherArticle = () => {
         <Tag
           text="Новое"
           url="/news"
-          type="absoluteNews"
+          type="news"
+          customStyles="absolute top-3 left-3 lg:top-3 lg:left-3 bg-tag-news"
         />
       }
       <img className="rounded-3xl" src="cover.png" />
@@ -21,10 +22,14 @@ const OtherArticle = () => {
         <h2 className="text-lg md:text-base xl:text-lg font-medium mb-4">
           Улучшить результаты другого подрядчика и получить 200+ лидов в кризис? Кейс Титансофт о продвижении застройщика
         </h2>
-        <Statistic/>
+        <Statistic
+          like={20}
+          comments={5}
+          date="21.03.2023"
+        />
       </div>
     </div>
   )
 }
 
-export default OtherArticle
+export default OtherArticle;
