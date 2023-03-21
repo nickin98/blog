@@ -12,7 +12,7 @@ export default () => (
   <>
     <div className="mt-12"/>
     <TagsList/>
-    {/* <FirstArticle/> */}
+    <FirstArticle/>
     {/* <div className="mt-12"/> */}
     {/* <div className="flex flex-wrap gap-x-1 gap-y-3 justify-between">
       <OtherArticle/>

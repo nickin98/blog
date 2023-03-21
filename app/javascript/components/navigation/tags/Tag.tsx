@@ -10,7 +10,7 @@ interface Props {
 
 const customStyles = {
   news:           'bg-tag-news hover:bg-tag-hover-news',
-  absoluteNews:   'bg-tag-news hover:bg-tag-hover-news absolute top-3 left-3 bg-tag-news',
+  absoluteNews:   'bg-tag-news hover:bg-tag-hover-news absolute top-3 left-3 lg:top-8 lg:left-8 xl:top-9 xl:left-9 bg-tag-news',
   case:           'bg-tag-case hover:bg-tag-hover-case',
   sales:          'bg-tag-sales hover:bg-tag-hover-sales',
   leadGeneration: 'bg-tag-leadGeneration hover:bg-tag-hover-leadGeneration',
