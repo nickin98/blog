@@ -20,16 +20,13 @@ const OtherArticle = () => {
       <img className="rounded-3xl" src="cover.png" />
       <div className="flex flex-col justify-between py-6 px-4">
         <h2 className="text-lg md:text-base xl:text-lg font-medium mb-4">
-          Улучшить результаты другого подрядчика и получить 200+ лидов в кризис? Кейс Титансофт о продвижении застройщика
+          Улучшить результаты другого подрядчика и получить 200+ лидов в кризис?
+          Кейс Титансофт о продвижении застройщика
         </h2>
-        <Statistic
-          like={20}
-          comments={5}
-          date="21.03.2023"
-        />
+        <Statistic like={20} comments={5} date="21.03.2023" />
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default OtherArticle;

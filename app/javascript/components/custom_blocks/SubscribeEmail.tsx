@@ -10,7 +10,8 @@ const SubscribeEmail = () => {
           Получайте&nbsp;статьи&nbsp;на&nbsp;почту!
           <input
             className='rounded-full mt-4 px-6 py-3 lg:mt-0 lg:ml-8 lg:w-full xl:text-lg xl:px-6 border border-lightGray hover:shadow-lightGray transition duration-300'
-            type="text"
+            type="email"
+            required
             name="email"
             placeholder="Введите свой email"
           />
